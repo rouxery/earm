@@ -3,7 +3,7 @@
 
 from pysb import *
 from pysb.util import alias_model_components
-from earm.macros import *
+from earm.shared import *
 from pysb.macros import equilibrate
 import albeck_modules
 import lopez_modules

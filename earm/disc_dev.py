@@ -1,7 +1,7 @@
 """Novel mechanism for DISC along with lopez_embedded and albeck apaf1_to_parp modules"""
 
 from pysb import *
-from earm import macros
+from earm import shared
 from earm import disc_modules_dev
 from earm import lopez_modules
 from earm import albeck_modules
@@ -27,5 +27,5 @@ disc_modules_dev.lig_to_bid_rates()
 disc_modules_dev.lig_to_bid()
 
 # Declare observables
-macros.shared_observables()
+shared.observables()
 
